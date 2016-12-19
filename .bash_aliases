@@ -1,6 +1,6 @@
 # List alias
 alias ll='ls -hal'
-alias l='ls $LS_OPTIONS -lA'
+alias l='ls -lA'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias s='ssh -l root'
@@ -15,4 +15,5 @@ alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %
 # Ansible aliases.
 alias an='ansible'
 alias ap='ansible-playbook'
+alias av='ansible-vault'
 
